@@ -644,12 +644,12 @@ img {
 }
 
 .card__logo {
-  min-width: min(220px, 82%);
+  min-width: min(190px, 72%);
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: clamp(12px, 2.8vw, 16px) clamp(16px, 4vw, 22px);
-  border-radius: 24px;
+  padding: clamp(8px, 2vw, 12px) clamp(12px, 3vw, 16px);
+  border-radius: 22px;
   background: rgba(15, 28, 64, 0.22);
 }
 

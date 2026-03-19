@@ -643,21 +643,23 @@ img {
   justify-content: center;
 }
 .card__logo {
-  min-width: min(190px, 72%);
+  width: fit-content;
+  min-width: 0;
+  max-width: 58%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: clamp(8px, 2vw, 12px) clamp(12px, 3vw, 16px);
-  border-radius: 22px;
+  margin: 0 auto 20px;
+  padding: 6px 10px;
+  border-radius: 18px;
   background: rgba(15, 28, 64, 0.22);
 }
 
 .card__logo img {
-  width: 160px;
+  width: 140px;
   max-width: 100%;
   height: auto;
   display: block;
-  object-fit: contain;
 }
 
 .card__center {
